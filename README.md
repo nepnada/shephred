@@ -1,73 +1,23 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/5308327a-1c2b-4e44-82a8-428731d9ef62
+FlockGuard – AI-Powered Livestock Monitoring System
 
-## How can I edit this code?
+FlockGuard is an AI-driven livestock monitoring and management platform designed to help shepherds and farmers optimize grazing, monitor animal health, and detect predators in real time. The project combines computer vision, machine learning, and path optimization algorithms to provide actionable insights in low-resource farming environments.
 
-There are several ways of editing your application.
+Features
+	•	Sheep Counting: Automatically detects and counts sheep in a field using computer vision models.
+	•	Predator & Health Detection: Identifies predators and sick animals through deep learning, allowing timely intervention.
+	•	Optimal Grazing Trajectories: Predicts the safest and most efficient grazing paths while considering restricted zones, protected forests, poisonous plants, and other environmental constraints.
+	•	Real-Time Alerts: Sends notifications if predators are detected or if sheep are showing signs of illness.
 
-**Use Lovable**
+Technologies Used
+	•	Python for ML pipelines and data handling
+	•	PyTorch / TensorFlow for computer vision models (YOLO, MobileNetV2)
+	•	OpenCV for image processing
+	•	Optimization Algorithms for trajectory planning
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5308327a-1c2b-4e44-82a8-428731d9ef62) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Acknowledgements
+	•	Al Akhawayn University AI Summer School Hackathon – 3rd place
+	•	Pretrained models: YOLOv8, MobileNetV2
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5308327a-1c2b-4e44-82a8-428731d9ef62) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
