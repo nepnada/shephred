@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "center": [33.540, -5.120],
+    "ndvi": 0.82,
+    "accessible": true,
+    "quality": "excellent",
+    "name": "North Valley",
+    "description": "High quality pasture with excellent water access"
+  },
+  {
+    "id": 2,
+    "center": [33.545, -5.115],
+    "ndvi": 0.75,
+    "accessible": true,
+    "quality": "excellent",
+    "name": "Upper Meadow",
+    "description": "Premium grazing area with diverse vegetation"
+  },
+  {
+    "id": 3,
+    "center": [33.535, -5.105],
+    "ndvi": 0.68,
+    "accessible": true,
+    "quality": "good",
+    "name": "East Ridge",
+    "description": "Good quality grazing on elevated terrain"
+  },
+  {
+    "id": 4,
+    "center": [33.520, -5.100],
+    "ndvi": 0.45,
+    "accessible": false,
+    "quality": "restricted",
+    "name": "South Reserve",
+    "description": "Protected area - breeding season closure"
+  },
+  {
+    "id": 5,
+    "center": [33.525, -5.125],
+    "ndvi": 0.58,
+    "accessible": true,
+    "quality": "good",
+    "name": "Central Plains",
+    "description": "Moderate quality with good accessibility"
+  },
+  {
+    "id": 6,
+    "center": [33.550, -5.110],
+    "ndvi": 0.35,
+    "accessible": true,
+    "quality": "fair",
+    "name": "Lower Field",
+    "description": "Fair grazing, suitable for rotation"
+  },
+  {
+    "id": 7,
+    "center": [33.530, -5.090],
+    "ndvi": 0.72,
+    "accessible": true,
+    "quality": "excellent",
+    "name": "Mountain Pasture",
+    "description": "Excellent high-altitude grazing"
+  },
+  {
+    "id": 8,
+    "center": [33.515, -5.115],
+    "ndvi": 0.25,
+    "accessible": false,
+    "quality": "restricted",
+    "name": "Protected Zone",
+    "description": "No water access - restricted area"
+  },
+  {
+    "id": 9,
+    "center": [33.545, -5.095],
+    "ndvi": 0.15,
+    "accessible": false,
+    "quality": "restricted",
+    "name": "Rocky Terrain",
+    "description": "Unsafe terrain - access prohibited"
+  },
+  {
+    "id": 10,
+    "center": [33.525, -5.105],
+    "ndvi": 0.52,
+    "accessible": true,
+    "quality": "good",
+    "name": "Valley Bottom",
+    "description": "Good grazing with seasonal variations"
+  }
+]
